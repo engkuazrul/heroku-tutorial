@@ -1,0 +1,20 @@
+Install git bash
+Install heroku cli
+
+Initialize git on project folder
+
+// Initial heroku (bash)
+heroku create
+
+// Run git
+git init
+git add .
+git commit -m "message"
+git remote -v
+heroku git:remote -a <heroku-app-name> //if git remote exist
+
+git push heroku main
+ 
+// Run heroku
+heroku open
+heroku logs --tail //check heroku logs or error
